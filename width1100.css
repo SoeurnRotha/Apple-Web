@@ -1,0 +1,39 @@
+@media screen and (max-width: 1100px) {
+    
+    #slider {
+        height: 60vh;
+        background-size: cover;
+    }
+
+    .category{
+        margin: 20px;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    .container-img{
+        width: 180px;
+    }
+
+    #txtProduct h1{
+        font-size: 30px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+    }
+
+    .product{
+        margin: 20px;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    .box-product{
+        width: 180px;
+    }
+
+    .signUp button{
+        margin-top: 20px;
+    }
+}
+
+

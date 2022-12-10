@@ -1,0 +1,103 @@
+@media screen and (max-width: 600px) {
+    #slider{
+        height: 30vh;
+    }
+    #slider h1{
+        font-size: 20px;
+    }
+    #slider p{
+        font-size: 14px;
+    }
+    #slider button{
+        padding: 5px;
+        font-size: 12px;
+    }
+    .txt-category h1{
+        font-size: 20px;
+    }
+
+    .category{
+        margin: 20px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .container-img{
+        width: 160px;
+        height: 180px;
+    }
+
+    #txtProduct h1{
+        font-size: 20px;
+    }
+    #txtProduct p{
+        font-size: 14px;
+    }
+
+    .product{
+        margin: 20px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .box-product{
+        width: 160px;
+        height: 280px;
+    }
+
+    .col-img1{
+        width: 400px;
+        background-size: cover;
+        height: 50vh;
+    }
+
+    .col-img2{
+        width: 400px;
+        background-size: cover;
+        height: 50vh;
+    }
+
+    .row3{
+        margin: 20px;
+        /* margin-top: 20vh; */
+        display: grid;
+        height: 100vh;
+    }
+
+    .col-img3{
+        margin-left: 20px;
+         width: 400px;
+        height: 40vh;
+    }
+    .col-img4{
+          margin-left: 20px;
+         width: 400px;
+        height: 40vh;
+    }
+    .col-img5{
+          margin-left: 20px;
+        width: 400px;
+        height: 40vh;
+    }
+
+
+    .signUp{
+        display: grid;
+        height: 70vh;
+    }
+    .signUp h1{
+        text-align: center;
+    }
+    .signUp p{
+        text-align: center;
+    }
+
+
+    .btn-email{
+        align-items: center;
+        justify-content: center;
+        display: grid;
+
+        padding-bottom: 100px;
+    }
+
+}

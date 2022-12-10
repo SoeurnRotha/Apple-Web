@@ -1,0 +1,123 @@
+@media screen and (max-width : 800px) {
+    #slider h1{
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+    #slider p{
+        font-size: 16px;
+        width: 300px;
+    }
+    #slider button{
+        border: none;
+        padding: 10px;
+    }
+    #slider {
+        background-size: cover;
+        height: 60vh;
+    }
+
+    .txt-category{
+        font-size: 20px;
+        letter-spacing: 4px;
+
+    }
+    .category{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+
+    }
+    .container-img{
+        width: 160px;
+    }
+
+    #txtProduct h1{
+        font-size: 30px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+
+    }
+    #txtProduct p{
+        font-size: 16px;
+    }
+
+    .product{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin: 10px;
+    }
+
+    .box-product{
+        width: 170px;
+    }
+
+
+
+    .row2{
+        display: grid;
+
+    }
+    .col-img1{
+        width: 700px;
+        height: 400px;
+    }
+    .col-img2{
+        width: 700px;
+        height: 400px;
+    }
+
+    .row3{
+        padding-top: 55vh;
+        display: grid;
+        margin: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .col-img3{
+        width: 600px;
+        height: 300px;
+    }
+    .col-img4{
+        width: 600px;
+        height: 300px;
+    }
+    .col-img5{
+        width: 600px;
+        height: 300px;
+    }
+
+
+
+    .signUp{
+        margin-top: 90vh;
+        
+    }
+    .signUp-text{
+        margin-left: 20px;
+    }
+    .signUp-text h1{
+        font-size: 20px;
+    }
+    .signUp-text p{
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+
+
+    .btn-email{
+        margin-right: 20px;
+    }
+    .btn-email button{
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+
+
+
+
+
+
+}
